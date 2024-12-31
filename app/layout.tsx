@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Divyansh Portfolio",
   description: "Futuristic and minimalistic portfolio",
+  icons : 'https://as1.ftcdn.net/v2/jpg/09/35/30/50/1000_F_935305015_P4EWpi4dbmS6dbF4GiKjcySjRsKewthd.jpg'
 };
 
 export default function RootLayout({
