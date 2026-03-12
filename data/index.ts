@@ -157,6 +157,22 @@ export const navItems = [
 
   export const buildingProjects = [
     {
+      id: 3,
+      title: "Studysync – Mobile Productivity App",
+      img: "/images/study.jpeg",
+      tech: "React Native (Expo), Supabase, Google OAuth",
+      des: "Productivity-focused mobile app enabling collaborative work sessions with real-time activity synchronization and Google OAuth 2.0 authentication.",
+      status: "comingsoon",
+    },
+    {
+      id: 4,
+      title: "Romeo – Ride Sharing Platform",
+      img: "/images/romeo.jpeg",
+      tech: "React Native, Node.js, MongoDB, JWT Auth, Google Sign-In",
+      des: "Ride-sharing platform with scalable ride session architecture, secure JWT authentication, and backend APIs for trip management, ride validation, and user roles.",
+      status: "comingsoon",
+    },
+    {
       id: 1,
       title: "Trust Acres – Real Estate Platform",
       img: "/images/trust.jpg",
@@ -173,22 +189,6 @@ export const navItems = [
       des: "Founded and developed a digital agency platform consolidating multiple client systems and service offerings. Architected scalable web infrastructure with lead capture pipelines.",
       link: "https://thesocialhood.in",
       status: "live",
-    },
-    {
-      id: 3,
-      title: "Studysync – Mobile Productivity App",
-      img: "/images/study.jpeg",
-      tech: "React Native (Expo), Supabase, Google OAuth",
-      des: "Productivity-focused mobile app enabling collaborative work sessions with real-time activity synchronization and Google OAuth 2.0 authentication.",
-      status: "comingsoon",
-    },
-    {
-      id: 4,
-      title: "Romeo – Ride Sharing Platform",
-      img: "/images/romeo.jpeg",
-      tech: "React Native, Node.js, MongoDB, JWT Auth, Google Sign-In",
-      des: "Ride-sharing platform with scalable ride session architecture, secure JWT authentication, and backend APIs for trip management, ride validation, and user roles.",
-      status: "comingsoon",
     },
   ];
   
@@ -293,13 +293,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/TdivyanshC",
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/divyansh-chauhan-0249611bb/",
     },
   ];
