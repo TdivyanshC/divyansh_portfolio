@@ -110,7 +110,7 @@ export const BentoGridItem = ({
       {id === 3 && (
         <div className="flex gap-2 lg:gap-2 w-fit absolute -right-3 lg:-right-2 ">
           <div className="flex flex-col gap-3 lg:gap-2 ">
-            {['React.js', 'Next.js', 'TypeSccript'].map((item, index) => (
+            {['JavaScript', 'Next.js', 'React.js', 'React Native'].map((item, index) => (
               <span key={`stack-item-${index}`} className="py-2 lg:py-2 lg:px-2 px-3 text-sm  lg:text-[12px]  opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] ">
                 {item}
               </span>
@@ -119,7 +119,23 @@ export const BentoGridItem = ({
           </div>
           <div className="flex flex-col gap-3 lg:gap-2">
           <span className="py-5 px-3 rounded-lg text-center bg-[#10132e]" />
-            {['MongoDB', 'TailwindCSS', 'Redux'].map((item, index) => (
+            {['Expo', 'TypeScript', 'Node.js', 'MongoDB'].map((item, index) => (
+              <span key={`stack-item-${index}`} className="py-2 lg:py-2 lg:px-2 px-3 text-xs lg:text-[12px] opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                {item}
+              </span>
+            ))}
+          </div>
+          <div className="flex flex-col gap-3 lg:gap-2">
+          <span className="py-5 px-3 rounded-lg text-center bg-[#10132e]" />
+            {['Supabase', 'WordPress', 'Tailwind CSS', 'JWT Auth'].map((item, index) => (
+              <span key={`stack-item-${index}`} className="py-2 lg:py-2 lg:px-2 px-3 text-xs lg:text-[12px] opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                {item}
+              </span>
+            ))}
+          </div>
+          <div className="flex flex-col gap-3 lg:gap-2">
+          <span className="py-5 px-3 rounded-lg text-center bg-[#10132e]" />
+            {['REST APIs', 'SEO Optimization', 'Agentic & Generative AI', 'Web Designing'].map((item, index) => (
               <span key={`stack-item-${index}`} className="py-2 lg:py-2 lg:px-2 px-3 text-xs lg:text-[12px] opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                 {item}
               </span>

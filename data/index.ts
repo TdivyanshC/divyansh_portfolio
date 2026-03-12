@@ -103,6 +103,94 @@ export const navItems = [
       link: "/ui.apple.com",
     },
   ];
+
+  export const clientProjects = [
+    {
+      id: 1,
+      title: "Kleoniverse – Luxury Fashion E-Commerce",
+      img: "/images/kleoni.jpg",
+      tech: "React.js, Supabase, Node.js, Tailwind CSS",
+      des: "Developed responsive e-commerce frontend with product management system and integrated authentication with database-driven catalog structure.",
+      link: "https://kleoniverse.com",
+    },
+    {
+      id: 2,
+      title: "SwadeshiHindi Party – Political & Social Platform",
+      img: "/images/swadeshi.jpg",
+      tech: "Next.js, Supabase, Node.js, Tailwind CSS, SEO Optimization",
+      des: "Built dynamic content modules for announcements and campaigns. Structured SEO-optimized routing for improved organic reach. Managed production deployment and environment configuration.",
+      link: "https://swadeshihindparty.in",
+    },
+    {
+      id: 3,
+      title: "PaisaPriest – Loan Assistance Platform",
+      img: "/images/paisa.jpg",
+      tech: "Next.js, MongoDB, Node.js",
+      des: "Built lead generation architecture with optimized form pipelines. Structured SEO-focused financial services platform.",
+      link: "https://paisapriest.com",
+    },
+    {
+      id: 4,
+      title: "YourLaptop.in – SRLD Enterprises",
+      img: "/images/SRLD.jpg",
+      tech: "Next.js, MongoDB, Node.js",
+      des: "Implemented custom Google OAuth authentication with JWT session handling. Built protected routes and secure user role management.",
+      link: "https://yourlaptop.in",
+    },
+    {
+      id: 5,
+      title: "Elecment Design Fab – Engineering & Semiconductor Solutions",
+      img: "/images/elecment.jpg",
+      tech: "HTML5, CSS3, JavaScript, Responsive Design, SEO",
+      des: "Developed a corporate engineering website for semiconductor design and verification expertise. Built fully responsive front-end with performance-optimized UI for B2B client engagement.",
+      link: "https://elecmentdesignfab.com",
+    },
+    {
+      id: 6,
+      title: "Coursary – Learning Management System",
+      img: "/images/coursary.jpeg",
+      tech: "WordPress, LMS Plugin, Custom Theme, User Role Management",
+      des: "Developed an LMS enabling tutors to publish and manage structured online courses. Integrated course modules, quizzes, and progress tracking with role-based access for instructors and students.",
+      link: "https://crackcuet.co.in",
+    },
+  ];
+
+  export const buildingProjects = [
+    {
+      id: 1,
+      title: "Trust Acres – Real Estate Platform",
+      img: "/images/trust.jpg",
+      tech: "Next.js, Node.js (Express), MongoDB, JWT Auth, Tailwind CSS",
+      des: "SmartBroker-based real estate platform enabling structured broker-led property transactions. Scalable backend APIs for property listings, broker-user relationships, and deal tracking.",
+      link: "https://trustacres.com",
+      status: "live",
+    },
+    {
+      id: 2,
+      title: "The SocialHood – Digital Agency Platform",
+      img: "/images/socialhood.jpg",
+      tech: "Next.js, Supabase, Node.js, Tailwind CSS, SEO Optimization",
+      des: "Founded and developed a digital agency platform consolidating multiple client systems and service offerings. Architected scalable web infrastructure with lead capture pipelines.",
+      link: "https://thesocialhood.in",
+      status: "live",
+    },
+    {
+      id: 3,
+      title: "Studysync – Mobile Productivity App",
+      img: "/images/study.jpeg",
+      tech: "React Native (Expo), Supabase, Google OAuth",
+      des: "Productivity-focused mobile app enabling collaborative work sessions with real-time activity synchronization and Google OAuth 2.0 authentication.",
+      status: "comingsoon",
+    },
+    {
+      id: 4,
+      title: "Romeo – Ride Sharing Platform",
+      img: "/images/romeo.jpeg",
+      tech: "React Native, Node.js, MongoDB, JWT Auth, Google Sign-In",
+      des: "Ride-sharing platform with scalable ride session architecture, secure JWT authentication, and backend APIs for trip management, ride validation, and user roles.",
+      status: "comingsoon",
+    },
+  ];
   
   export const testimonials = [
     {
@@ -173,29 +261,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Kleoniverse – Luxury Fashion E-Commerce",
+      desc: "Developed responsive e-commerce frontend with product management system and integrated authentication with database-driven catalog structure.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "SwadeshiHindi Party – Political & Social Platform",
+      desc: "Built dynamic content modules for announcements and campaigns with SEO-optimized routing and production deployment.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "PaisaPriest – Loan Assistance Platform",
+      desc: "Built lead generation architecture with optimized form pipelines and SEO-focused financial services platform.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "YourLaptop.in – SRLD Enterprises",
+      desc: "Implemented custom Google OAuth authentication with JWT session handling, protected routes and secure user role management.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
