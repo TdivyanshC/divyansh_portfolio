@@ -195,33 +195,39 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Divyansh built our entire e-commerce frontend from scratch. The product catalog, authentication flow, and overall UI were delivered cleanly and on time. Exactly what we needed for our luxury fashion brand launch.",
+      name: "Sonia",
+      title: "Founder at Kleoniverse",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Our platform needed fast turnaround with strong SEO and dynamic content modules. Divyansh handled everything — routing, metadata, deployment — professionally. Our organic reach improved noticeably after launch.",
+      name: "Matendra Singh",
+      title: "Campaign Director at Swadeshi Hind Party",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "We needed a clean lead generation system for our loan assistance platform. Divyansh structured the form pipelines and SEO architecture perfectly. The site performs well and brings in consistent leads.",
+      name: "Ram Pratap",
+      title: "Co-Founder at PaisaPriest",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Divyansh implemented Google OAuth and secure role-based access for our platform with great attention to detail. The authentication system has been rock solid since launch. Very reliable developer.",
+      name: "Rajesh Tiwari",
+      title: "Owner at SRLD Enterprises / YourLaptop.in",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "We required a professional B2B website representing our semiconductor engineering services. Divyansh delivered a fully responsive, performance-optimized site that accurately reflects our brand and technical expertise.",
+      name: "Prakash Iyer",
+      title: "Director at Elecment Design Fab",
+    },
+    {
+      quote:
+        "Divyansh set up our entire LMS from scratch — course modules, quizzes, instructor dashboards, and student access controls. The platform runs smoothly and our tutors found it easy to onboard. Great work overall.",
+      name: "Saumya",
+      title: "Product Manager at Coursary / CrackCUET",
     },
   ];
   
